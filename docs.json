@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
@@ -11,87 +11,69 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
-        "pages": [
-          "docs/welcome"
-        ]
-      },
-      {
-        "tab": "Webhooks",
+        "tab": "Guides",
         "groups": [
           {
-            "group": "Ticketing Webhooks",
+            "group": "Get Started",
             "pages": [
-              "webhooks/ticketing/overview"
+              "introduction",
+              "quickstart",
+              "development"
             ]
           },
           {
-            "group": "Credentialing Webhooks",
+            "group": "Essentials",
             "pages": [
-              "webhooks/credentialing/overview"
-            ]
-          },
-          {
-            "group": "Interactions Webhooks",
-            "pages": [
-              "webhooks/interactions/overview"
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
             ]
           }
         ]
       },
       {
-        "tab": "Access API",
-        "pages": [
-          "access-api/overview"
-        ]
-      },
-      {
-        "tab": "AuthKit SDK",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "iOS",
+            "group": "API Documentation",
             "pages": [
-              "authkit-sdk/ios/overview"
+              "api-reference/introduction"
             ]
           },
           {
-            "group": "Android",
+            "group": "Endpoint Examples",
             "pages": [
-              "authkit-sdk/android/overview"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "EnrollKit SDK",
-        "groups": [
-          {
-            "group": "iOS",
-            "pages": [
-              "enrollkit-sdk/ios/overview"
-            ]
-          },
-          {
-            "group": "Android",
-            "pages": [
-              "enrollkit-sdk/android/overview"
-            ]
-          },
-          {
-            "group": "React",
-            "pages": [
-              "enrollkit-sdk/react/overview"
-            ]
-          },
-          {
-            "group": "Web",
-            "pages": [
-              "enrollkit-sdk/web/overview"
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
         ]
       }
-    ]
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
   },
   "logo": {
     "light": "/logo/light.svg",
