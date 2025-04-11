@@ -1,46 +1,34 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Get Started",
+        "tab": "Documentation",
         "pages": [
-          "Hello"
+          "docs/welcome"
         ]
       },
       {
         "tab": "Webhooks",
         "anchors": [
           {
-            "anchor": "Ticketing Webhook",
+            "anchor": "Ticketing Webhooks",
             "icon": "book-open",
             "pages": [
-              "Page 1",
-              "Page 2"
+              "webhooks/ticketing/overview"
             ]
           },
           {
-            "anchor": "Credentialing Webhook",
+            "anchor": "Credentialing Webhooks",
             "icon": "book-closed",
             "pages": [
-              "Page 1",
-              "Page 2"
+              "webhooks/credentialing/overview"
             ]
           },
           {
-            "anchor": "Interactions Webhook",
-            "icon": "closed-book",
+            "anchor": "Interactions Webhooks",
+            "icon": "book",
             "pages": [
-              "Page 1",
-              "Page 2"
+              "webhooks/interactions/overview"
             ]
           }
         ]
@@ -48,58 +36,61 @@
       {
         "tab": "Access API",
         "pages": [
-          "Hello"
+          "access-api/overview"
         ]
       },
       {
-        "tab": "SDKs",
+        "tab": "AuthKit SDK",
         "anchors": [
           {
             "anchor": "iOS",
-            "icon": "book-open",
+            "icon": "apple",
             "pages": [
-              "Page 1",
-              "Page 2"
+              "authkit-sdk/ios/overview"
             ]
           },
           {
             "anchor": "Android",
-            "icon": "book-closed",
+            "icon": "android",
             "pages": [
-              "Page 1",
-              "Page 2"
+              "authkit-sdk/android/overview"
             ]
           }
         ]
       },
       {
-        "tab": "Trust Center",
-        "href": "https://trust.wicketsoft.com/"
+        "tab": "EnrollKit SDK",
+        "anchors": [
+          {
+            "anchor": "iOS",
+            "icon": "apple",
+            "pages": [
+              "enrollkit-sdk/ios/overview"
+            ]
+          },
+          {
+            "anchor": "Android",
+            "icon": "android",
+            "pages": [
+              "enrollkit-sdk/android/overview"
+            ]
+          },
+          {
+            "anchor": "React",
+            "icon": "react",
+            "pages": [
+              "enrollkit-sdk/react/overview"
+            ]
+          },
+          {
+            "anchor": "Web",
+            "icon": "globe",
+            "pages": [
+              "enrollkit-sdk/web/overview"
+            ]
+          }
+        ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
