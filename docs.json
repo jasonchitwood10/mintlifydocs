@@ -8,124 +8,76 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  {
-  "navigation": [
-    {
-      "title": "Documentation",
-      "pages": [
-        {
-          "title": "Welcome",
-          "href": "docs/welcome"
-        }
-      ]
-    },
-    {
-      "title": "Webhooks",
-      "groups": [
-        {
-          "title": "Ticketing Webhooks",
-          "pages": [
-            {
-              "title": "Overview",
-              "href": "webhooks/ticketing/overview"
-            }
-          ]
-        },
-        {
-          "title": "Credentialing Webhooks",
-          "pages": [
-            {
-              "title": "Overview",
-              "href": "webhooks/credentialing/overview"
-            }
-          ]
-        },
-        {
-          "title": "Interactions Webhooks",
-          "pages": [
-            {
-              "title": "Overview",
-              "href": "webhooks/interactions/overview"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Access API",
-      "pages": [
-        {
-          "title": "Overview",
-          "href": "access-api/overview"
-        }
-      ]
-    },
-    {
-      "title": "AuthKit SDK",
-      "groups": [
-        {
-          "title": "iOS",
-          "pages": [
-            {
-              "title": "Overview",
-              "href": "authkit-sdk/ios/overview"
-            }
-          ]
-        },
-        {
-          "title": "Android",
-          "pages": [
-            {
-              "title": "Overview",
-              "href": "authkit-sdk/android/overview"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "EnrollKit SDK",
-      "groups": [
-        {
-          "title": "iOS",
-          "pages": [
-            {
-              "title": "Overview",
-              "href": "enrollkit-sdk/ios/overview"
-            }
-          ]
-        },
-        {
-          "title": "Android",
-          "pages": [
-            {
-              "title": "Overview",
-              "href": "enrollkit-sdk/android/overview"
-            }
-          ]
-        },
-        {
-          "title": "React",
-          "pages": [
-            {
-              "title": "Overview",
-              "href": "enrollkit-sdk/react/overview"
-            }
-          ]
-        },
-        {
-          "title": "Web",
-          "pages": [
-            {
-              "title": "Overview",
-              "href": "enrollkit-sdk/web/overview"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Get Started",
+        "pages": [
+          "Hello"
+        ]
+      },
+      {
+        "tab": "Webhooks",
+        "anchors": [
+          {
+            "anchor": "Ticketing Webhook",
+            "icon": "book-open",
+            "pages": [
+              "Page 1",
+              "Page 2"
+            ]
+          },
+          {
+            "anchor": "Credentialing Webhook",
+            "icon": "book-closed",
+            "pages": [
+              "Page 1",
+              "Page 2"
+            ]
+          },
+          {
+            "anchor": "Interactions Webhook",
+            "icon": "closed-book",
+            "pages": [
+              "Page 1",
+              "Page 2"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Access API",
+        "pages": [
+          "Hello"
+        ]
+      },
+      {
+        "tab": "SDKs",
+        "anchors": [
+          {
+            "anchor": "iOS",
+            "icon": "book-open",
+            "pages": [
+              "Page 1",
+              "Page 2"
+            ]
+          },
+          {
+            "anchor": "Android",
+            "icon": "book-closed",
+            "pages": [
+              "Page 1",
+              "Page 2"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Trust Center",
+        "href": "https://trust.wicketsoft.com/"
+      }
+    ]
+  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
