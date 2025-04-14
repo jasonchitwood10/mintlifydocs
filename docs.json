@@ -34,31 +34,31 @@
       },
       {
         "tab": "Webhooks",
-        "groups": [
+        "anchors": [
           {
-            "group": "Overview",
+            "anchor": "Overview",
             "icon": "hand-wave",
             "pages": [
-              "docs/webhooks/overview"
+              "docs/webhooks/overview/overview"
             ]
           },
           {
-            "group": "Ticketing Webhooks",
+            "anchor": "Ticketing Webhooks",
             "icon": "ticket",
             "pages": [
               "docs/webhooks/ticketing/overview"
             ]
           },
           {
-            "group": "Credentialing Webhooks",
+            "anchor": "Credentialing Webhooks",
             "icon": "id-badge",
             "pages": [
               "docs/webhooks/credentialing/overview"
             ]
           },
           {
-            "group": "Interactions Webhooks",
-            "icon": "table-list",
+            "anchor": "Interactions Webhooks",
+            "icon": "list",
             "pages": [
               "docs/webhooks/interactions/overview"
             ]
@@ -139,7 +139,7 @@
       },
       {
         "tab": "Trust Center",
-        "href": "https://trust.wicketsoft.com/"
+        "href": "https://trust.wicketsoft.com"
       }
     ]
   },
