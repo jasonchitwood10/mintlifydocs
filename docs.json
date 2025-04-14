@@ -19,7 +19,7 @@
         "anchors": [
           {
             "anchor": "Overview",
-            "pages": ["docs/webhooks/overview"]
+            "pages": ["docs/webhooks/overview/overview"]
           },
           {
             "anchor": "Ticketing Webhooks",
@@ -44,7 +44,7 @@
         "anchors": [
           {
             "anchor": "Overview",
-            "pages": ["docs/authkit-sdk/overview"]
+            "pages": ["docs/authkit-sdk/overview/overview"]
           },
           {
             "anchor": "iOS",
@@ -61,7 +61,7 @@
         "anchors": [
           {
             "anchor": "Overview",
-            "pages": ["docs/enrollkit-sdk/overview"]
+            "pages": ["docs/enrollkit-sdk/overview/overview"]
           },
           {
             "anchor": "iOS",
