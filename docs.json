@@ -9,72 +9,137 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Get Started",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Pages",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Webhooks",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
+    {
+  "tabs": [
+    {
+      "name": "Getting Started",
+      "pages": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "name": "Introduction",
+          "path": "/getting-started/introduction"
         }
       ]
+    },
+    {
+      "name": "Webhooks",
+      "anchors": [
+        {
+          "name": "Ticketing",
+          "icon": "ticket",
+          "pages": [
+            {
+              "name": "Ticketing Webhook",
+              "path": "/webhooks/ticketing"
+            }
+          ]
+        },
+        {
+          "name": "Credentialing",
+          "icon": "certificate",
+          "pages": [
+            {
+              "name": "Credentialing Webhook",
+              "path": "/webhooks/credentialing"
+            }
+          ]
+        },
+        {
+          "name": "Interactions",
+          "icon": "comments",
+          "pages": [
+            {
+              "name": "Interactions Webhook",
+              "path": "/webhooks/interactions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Access API",
+      "pages": [
+        {
+          "name": "API Overview",
+          "path": "/access-api/overview"
+        }
+      ]
+    },
+    {
+      "name": "AuthKit SDK",
+      "anchors": [
+        {
+          "name": "iOS",
+          "icon": "apple",
+          "pages": [
+            {
+              "name": "iOS SDK",
+              "path": "/authkit-sdk/ios"
+            }
+          ]
+        },
+        {
+          "name": "Android",
+          "icon": "android",
+          "pages": [
+            {
+              "name": "Android SDK",
+              "path": "/authkit-sdk/android"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnrollKit SDK",
+      "anchors": [
+        {
+          "name": "iOS",
+          "icon": "apple",
+          "pages": [
+            {
+              "name": "iOS SDK",
+              "path": "/enrollkit-sdk/ios"
+            }
+          ]
+        },
+        {
+          "name": "Android",
+          "icon": "android",
+          "pages": [
+            {
+              "name": "Android SDK",
+              "path": "/enrollkit-sdk/android"
+            }
+          ]
+        },
+        {
+          "name": "React",
+          "icon": "react",
+          "pages": [
+            {
+              "name": "React SDK",
+              "path": "/enrollkit-sdk/react"
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "icon": "globe",
+          "pages": [
+            {
+              "name": "Web SDK",
+              "path": "/enrollkit-sdk/web"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trust Center",
+      "href": "https://trust.wicketsoft.com"
     }
-  },
+  ]
+}
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
