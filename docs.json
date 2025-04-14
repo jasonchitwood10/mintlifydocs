@@ -52,7 +52,7 @@
           },
           {
             "anchor": "Interactions Webhooks",
-            "icon": "table-list",
+            "icon": "list",
             "pages": ["docs/webhooks/interactions/overview"]
           }
         ]
