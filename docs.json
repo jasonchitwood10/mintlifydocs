@@ -12,47 +12,47 @@
     "tabs": [
       {
         "tab": "Documentation",
-        "pages": ["documentation/overview"]
+        "pages": ["docs/documentation/overview"]
       },
       {
         "tab": "Webhooks",
         "anchors": [
           {
             "anchor": "Overview",
-            "pages": ["webhooks/overview"]
+            "pages": ["docs/webhooks/overview"]
           },
           {
             "anchor": "Ticketing Webhooks",
-            "pages": ["webhooks/ticketing/overview"]
+            "pages": ["docs/webhooks/ticketing/overview"]
           },
           {
             "anchor": "Credentialing Webhooks",
-            "pages": ["webhooks/credentialing/overview"]
+            "pages": ["docs/webhooks/credentialing/overview"]
           },
           {
             "anchor": "Interactions Webhooks",
-            "pages": ["webhooks/interactions/overview"]
+            "pages": ["docs/webhooks/interactions/overview"]
           }
         ]
       },
       {
         "tab": "Access API",
-        "pages": ["access-api/overview"]
+        "pages": ["docs/access-api/overview"]
       },
       {
         "tab": "AuthKit SDK",
         "anchors": [
           {
             "anchor": "Overview",
-            "pages": ["authkit-sdk/overview"]
+            "pages": ["docs/authkit-sdk/overview"]
           },
           {
             "anchor": "iOS",
-            "pages": ["authkit-sdk/ios/overview"]
+            "pages": ["docs/authkit-sdk/ios/overview"]
           },
           {
             "anchor": "Android",
-            "pages": ["authkit-sdk/android/overview"]
+            "pages": ["docs/authkit-sdk/android/overview"]
           }
         ]
       },
@@ -61,23 +61,23 @@
         "anchors": [
           {
             "anchor": "Overview",
-            "pages": ["enrollkit-sdk/overview"]
+            "pages": ["docs/enrollkit-sdk/overview"]
           },
           {
             "anchor": "iOS",
-            "pages": ["enrollkit-sdk/ios/overview"]
+            "pages": ["docs/enrollkit-sdk/ios/overview"]
           },
           {
             "anchor": "Android",
-            "pages": ["enrollkit-sdk/android/overview"]
+            "pages": ["docs/enrollkit-sdk/android/overview"]
           },
           {
             "anchor": "React",
-            "pages": ["enrollkit-sdk/react/overview"]
+            "pages": ["docs/enrollkit-sdk/react/overview"]
           },
           {
             "anchor": "Web",
-            "pages": ["enrollkit-sdk/web/overview"]
+            "pages": ["docs/enrollkit-sdk/web/overview"]
           }
         ]
       },
