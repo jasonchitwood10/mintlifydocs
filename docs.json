@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "willow",
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
@@ -13,11 +13,14 @@
       {
         "tab": "Documentation",
         "pages": [
-          "docs/welcome"
+          "documentation/overview"
         ]
       },
       {
         "tab": "Webhooks",
+        "pages": [
+          "webhooks/overview"
+        ],
         "anchors": [
           {
             "anchor": "Ticketing Webhooks",
@@ -47,6 +50,9 @@
       },
       {
         "tab": "AuthKit SDK",
+        "pages": [
+          "authkit-sdk/overview"
+        ],
         "anchors": [
           {
             "anchor": "iOS",
@@ -64,6 +70,9 @@
       },
       {
         "tab": "EnrollKit SDK",
+        "pages": [
+          "enrollkit-sdk/overview"
+        ],
         "anchors": [
           {
             "anchor": "iOS",
