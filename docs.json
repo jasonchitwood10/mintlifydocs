@@ -15,6 +15,10 @@
     "light": "#37B5AC",
     "dark": "#37B5AC"
   },
+  "background": {
+    "light": "#FFFFFF",
+    "dark": "#1A1E24"
+  },
   "appearance": {
     "default": "dark",
     "strict": false
@@ -30,10 +34,14 @@
       },
       {
         "tab": "Webhooks",
-        "pages": [
-          "docs/webhooks/overview"
-        ],
         "groups": [
+          {
+            "group": "Overview",
+            "icon": "hand-wave",
+            "pages": [
+              "docs/webhooks/overview"
+            ]
+          },
           {
             "group": "Ticketing Webhooks",
             "icon": "ticket",
