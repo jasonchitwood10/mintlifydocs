@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#37B5AC",
-    "light": "#13293D",
-    "dark": "#13293D"
-  }
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
@@ -19,7 +19,7 @@
         "anchors": [
           {
             "anchor": "Overview",
-            "pages": ["docs/webhooks/overview"]
+            "pages": ["docs/webhooks/overview/overview"]
           },
           {
             "anchor": "Ticketing Webhooks",
@@ -44,7 +44,7 @@
         "anchors": [
           {
             "anchor": "Overview",
-            "pages": ["docs/authkit-sdk/overview"]
+            "pages": ["docs/authkit-sdk/overview/overview"]
           },
           {
             "anchor": "iOS",
@@ -61,7 +61,7 @@
         "anchors": [
           {
             "anchor": "Overview",
-            "pages": ["docs/enrollkit-sdk/overview"]
+            "pages": ["docs/enrollkit-sdk/overview/overview"]
           },
           {
             "anchor": "iOS",
