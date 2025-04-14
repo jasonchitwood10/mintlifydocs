@@ -1,23 +1,20 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Your Documentation",
-  "theme": "mint",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#007BFF",
-    "light": "#4DABFF",
-    "dark": "#005BC4",
-    "background": {
-      "light": "#F9FAFB",
-      "dark": "#111827"
+  "theme": {
+    "colors": {
+      "primary": "#007BFF",
+      "light": "#4DABFF",
+      "dark": "#005BC4"
     },
-    "anchors": {
-      "from": "#007BFF",
-      "to": "#4DABFF"
+    "background": {
+      "default": "#F9FAFB",
+      "dark": "#111827"
     }
   },
   "modeToggle": {
@@ -94,10 +91,7 @@
     {
       "group": "Trust Center",
       "pages": [
-        {
-          "page": "Trust Center",
-          "url": "https://trust.wicketsoft.com"
-        }
+        "trust-center/external"
       ]
     }
   ],
@@ -105,47 +99,47 @@
     {
       "name": "Ticketing",
       "url": "/webhooks/overview#ticketing",
-      "group": "Webhooks"
+      "icon": "anchor"
     },
     {
       "name": "Credentialing",
       "url": "/webhooks/overview#credentialing",
-      "group": "Webhooks"
+      "icon": "anchor"
     },
     {
       "name": "Interactions",
       "url": "/webhooks/overview#interactions",
-      "group": "Webhooks"
+      "icon": "anchor"
     },
     {
       "name": "iOS",
       "url": "/authkit-sdk/guide#ios",
-      "group": "AuthKit SDK"
+      "icon": "anchor"
     },
     {
       "name": "Android",
       "url": "/authkit-sdk/guide#android",
-      "group": "AuthKit SDK"
+      "icon": "anchor"
     },
     {
       "name": "iOS",
       "url": "/enrollkit-sdk/guide#ios",
-      "group": "EnrollKit SDK"
+      "icon": "anchor"
     },
     {
       "name": "Android",
       "url": "/enrollkit-sdk/guide#android",
-      "group": "EnrollKit SDK"
+      "icon": "anchor"
     },
     {
       "name": "React",
       "url": "/enrollkit-sdk/guide#react",
-      "group": "EnrollKit SDK"
+      "icon": "anchor"
     },
     {
       "name": "Web",
       "url": "/enrollkit-sdk/guide#web",
-      "group": "EnrollKit SDK"
+      "icon": "anchor"
     }
   ]
 }
