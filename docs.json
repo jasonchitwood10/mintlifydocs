@@ -1,145 +1,120 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Your Documentation",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "willow",
+  "name": "Mint Starter Kit",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "theme": {
-    "colors": {
-      "primary": "#007BFF",
-      "light": "#4DABFF",
-      "dark": "#005BC4"
-    },
-    "background": {
-      "default": "#F9FAFB",
-      "dark": "#111827"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "pages": [
+          "docs/welcome"
+        ]
+      },
+      {
+        "tab": "Webhooks",
+        "anchors": [
+          {
+            "anchor": "Ticketing Webhooks",
+            "pages": [
+              "webhooks/ticketing/overview"
+            ]
+          },
+          {
+            "anchor": "Credentialing Webhooks",
+            "pages": [
+              "webhooks/credentialing/overview"
+            ]
+          },
+          {
+            "anchor": "Interactions Webhooks",
+            "pages": [
+              "webhooks/interactions/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Access API",
+        "pages": [
+          "access-api/overview"
+        ]
+      },
+      {
+        "tab": "AuthKit SDK",
+        "anchors": [
+          {
+            "anchor": "iOS",
+            "pages": [
+              "authkit-sdk/ios/overview"
+            ]
+          },
+          {
+            "anchor": "Android",
+            "pages": [
+              "authkit-sdk/android/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "EnrollKit SDK",
+        "anchors": [
+          {
+            "anchor": "iOS",
+            "pages": [
+              "enrollkit-sdk/ios/overview"
+            ]
+          },
+          {
+            "anchor": "Android",
+            "pages": [
+              "enrollkit-sdk/android/overview"
+            ]
+          },
+          {
+            "anchor": "React",
+            "pages": [
+              "enrollkit-sdk/react/overview"
+            ]
+          },
+          {
+            "anchor": "Web",
+            "pages": [
+              "enrollkit-sdk/web/overview"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
     }
   },
-  "modeToggle": {
-    "default": "light",
-    "isHidden": false
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "https://support.yourdomain.com"
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
-  ],
-  "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "/getting-started"
-  },
-  "tabs": [
-    {
-      "name": "Getting Started",
-      "url": "getting-started"
-    },
-    {
-      "name": "Webhooks",
-      "url": "webhooks"
-    },
-    {
-      "name": "Access API",
-      "url": "access-api"
-    },
-    {
-      "name": "AuthKit SDK",
-      "url": "authkit-sdk"
-    },
-    {
-      "name": "EnrollKit SDK",
-      "url": "enrollkit-sdk"
-    },
-    {
-      "name": "Trust Center",
-      "url": "trust-center"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "getting-started/introduction"
-      ]
-    },
-    {
-      "group": "Webhooks",
-      "pages": [
-        "webhooks/overview"
-      ]
-    },
-    {
-      "group": "Access API",
-      "pages": [
-        "access-api/reference"
-      ]
-    },
-    {
-      "group": "AuthKit SDK",
-      "pages": [
-        "authkit-sdk/guide"
-      ]
-    },
-    {
-      "group": "EnrollKit SDK",
-      "pages": [
-        "enrollkit-sdk/guide"
-      ]
-    },
-    {
-      "group": "Trust Center",
-      "pages": [
-        "trust-center/external"
-      ]
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Ticketing",
-      "url": "/webhooks/overview#ticketing",
-      "icon": "anchor"
-    },
-    {
-      "name": "Credentialing",
-      "url": "/webhooks/overview#credentialing",
-      "icon": "anchor"
-    },
-    {
-      "name": "Interactions",
-      "url": "/webhooks/overview#interactions",
-      "icon": "anchor"
-    },
-    {
-      "name": "iOS",
-      "url": "/authkit-sdk/guide#ios",
-      "icon": "anchor"
-    },
-    {
-      "name": "Android",
-      "url": "/authkit-sdk/guide#android",
-      "icon": "anchor"
-    },
-    {
-      "name": "iOS",
-      "url": "/enrollkit-sdk/guide#ios",
-      "icon": "anchor"
-    },
-    {
-      "name": "Android",
-      "url": "/enrollkit-sdk/guide#android",
-      "icon": "anchor"
-    },
-    {
-      "name": "React",
-      "url": "/enrollkit-sdk/guide#react",
-      "icon": "anchor"
-    },
-    {
-      "name": "Web",
-      "url": "/enrollkit-sdk/guide#web",
-      "icon": "anchor"
-    }
-  ]
+  }
 }
