@@ -2,6 +2,10 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Mint Starter Kit",
+  "appearance": {
+    "default": "dark",
+    "strict": false
+  },
   "fonts": {
     "heading": {
       "family": "Raleway"
