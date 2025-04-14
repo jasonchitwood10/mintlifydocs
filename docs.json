@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
@@ -12,93 +12,78 @@
     "tabs": [
       {
         "tab": "Documentation",
-        "pages": [
-          "documentation/overview"
-        ]
+        "pages": ["documentation/overview"]
       },
       {
         "tab": "Webhooks",
-        "pages": [
-          "webhooks/overview"
-        ],
         "anchors": [
           {
+            "anchor": "Overview",
+            "pages": ["webhooks/overview"]
+          },
+          {
             "anchor": "Ticketing Webhooks",
-            "pages": [
-              "webhooks/ticketing/overview"
-            ]
+            "pages": ["webhooks/ticketing/overview"]
           },
           {
             "anchor": "Credentialing Webhooks",
-            "pages": [
-              "webhooks/credentialing/overview"
-            ]
+            "pages": ["webhooks/credentialing/overview"]
           },
           {
             "anchor": "Interactions Webhooks",
-            "pages": [
-              "webhooks/interactions/overview"
-            ]
+            "pages": ["webhooks/interactions/overview"]
           }
         ]
       },
       {
         "tab": "Access API",
-        "pages": [
-          "access-api/overview"
-        ]
+        "pages": ["access-api/overview"]
       },
       {
         "tab": "AuthKit SDK",
-        "pages": [
-          "authkit-sdk/overview"
-        ],
         "anchors": [
           {
+            "anchor": "Overview",
+            "pages": ["authkit-sdk/overview"]
+          },
+          {
             "anchor": "iOS",
-            "pages": [
-              "authkit-sdk/ios/overview"
-            ]
+            "pages": ["authkit-sdk/ios/overview"]
           },
           {
             "anchor": "Android",
-            "pages": [
-              "authkit-sdk/android/overview"
-            ]
+            "pages": ["authkit-sdk/android/overview"]
           }
         ]
       },
       {
         "tab": "EnrollKit SDK",
-        "pages": [
-          "enrollkit-sdk/overview"
-        ],
         "anchors": [
           {
+            "anchor": "Overview",
+            "pages": ["enrollkit-sdk/overview"]
+          },
+          {
             "anchor": "iOS",
-            "pages": [
-              "enrollkit-sdk/ios/overview"
-            ]
+            "pages": ["enrollkit-sdk/ios/overview"]
           },
           {
             "anchor": "Android",
-            "pages": [
-              "enrollkit-sdk/android/overview"
-            ]
+            "pages": ["enrollkit-sdk/android/overview"]
           },
           {
             "anchor": "React",
-            "pages": [
-              "enrollkit-sdk/react/overview"
-            ]
+            "pages": ["enrollkit-sdk/react/overview"]
           },
           {
             "anchor": "Web",
-            "pages": [
-              "enrollkit-sdk/web/overview"
-            ]
+            "pages": ["enrollkit-sdk/web/overview"]
           }
         ]
+      },
+      {
+        "tab": "Trust Center",
+        "href": "https://trust.wicketsoft.com"
       }
     ]
   },
