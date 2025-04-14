@@ -21,7 +21,7 @@
   },
   "modeToggle": {
     "default": "light",
-    "isHidden": "false",
+    "isHidden": false
   },
   "topbarLinks": [
     {
