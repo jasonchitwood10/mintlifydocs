@@ -3,12 +3,12 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "fonts": {
-    "heading": { 
+    "heading": {
       "family": "Raleway"
-      },
+    },
     "body": {
       "family": "Albert Sans"
-    },
+    }
   },
   "colors": {
     "primary": "#13293D",
