@@ -2,10 +2,6 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Mint Starter Kit",
-  "appearance": {
-    "default": "dark",
-    "strict": false
-  },
   "fonts": {
     "heading": {
       "family": "Raleway"
@@ -19,47 +15,53 @@
     "light": "#37B5AC",
     "dark": "#37B5AC"
   },
-  "background": {
-    "color": {
-      "light": "#FFFFFF",
-      "dark": "#1A1E24"
-    }
+  "appearance": {
+    "default": "dark",
+    "strict": false
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Documentation",
-        "pages": ["docs/documentation/overview"]
+        "pages": [
+          "docs/documentation/overview"
+        ]
       },
       {
         "tab": "Webhooks",
-        "anchors": [
+        "pages": [
+          "docs/webhooks/overview"
+        ],
+        "groups": [
           {
-            "anchor": "Overview",
-            "icon": "hand-wave",
-            "pages": ["docs/webhooks/overview/overview"]
-          },
-          {
-            "anchor": "Ticketing Webhooks",
+            "group": "Ticketing Webhooks",
             "icon": "ticket",
-            "pages": ["docs/webhooks/ticketing/overview"]
+            "pages": [
+              "docs/webhooks/ticketing/overview"
+            ]
           },
           {
-            "anchor": "Credentialing Webhooks",
+            "group": "Credentialing Webhooks",
             "icon": "id-badge",
-            "pages": ["docs/webhooks/credentialing/overview"]
+            "pages": [
+              "docs/webhooks/credentialing/overview"
+            ]
           },
           {
-            "anchor": "Interactions Webhooks",
-            "icon": "list",
-            "pages": ["docs/webhooks/interactions/overview"]
+            "group": "Interactions Webhooks",
+            "icon": "table-list",
+            "pages": [
+              "docs/webhooks/interactions/overview"
+            ]
           }
         ]
       },
       {
         "tab": "Access API",
-        "pages": ["docs/access-api/overview"]
+        "pages": [
+          "docs/access-api/overview"
+        ]
       },
       {
         "tab": "AuthKit SDK",
@@ -67,17 +69,23 @@
           {
             "anchor": "Overview",
             "icon": "hand-wave",
-            "pages": ["docs/authkit-sdk/overview/overview"]
+            "pages": [
+              "docs/authkit-sdk/overview/overview"
+            ]
           },
           {
             "anchor": "iOS",
             "icon": "apple",
-            "pages": ["docs/authkit-sdk/ios/overview"]
+            "pages": [
+              "docs/authkit-sdk/ios/overview"
+            ]
           },
           {
             "anchor": "Android",
             "icon": "android",
-            "pages": ["docs/authkit-sdk/android/overview"]
+            "pages": [
+              "docs/authkit-sdk/android/overview"
+            ]
           }
         ]
       },
@@ -87,33 +95,43 @@
           {
             "anchor": "Overview",
             "icon": "hand-wave",
-            "pages": ["docs/enrollkit-sdk/overview/overview"]
+            "pages": [
+              "docs/enrollkit-sdk/overview/overview"
+            ]
           },
           {
             "anchor": "iOS",
             "icon": "apple",
-            "pages": ["docs/enrollkit-sdk/ios/overview"]
+            "pages": [
+              "docs/enrollkit-sdk/ios/overview"
+            ]
           },
           {
             "anchor": "Android",
             "icon": "android",
-            "pages": ["docs/enrollkit-sdk/android/overview"]
+            "pages": [
+              "docs/enrollkit-sdk/android/overview"
+            ]
           },
           {
             "anchor": "React",
             "icon": "react",
-            "pages": ["docs/enrollkit-sdk/react/overview"]
+            "pages": [
+              "docs/enrollkit-sdk/react/overview"
+            ]
           },
           {
             "anchor": "Web",
             "icon": "globe",
-            "pages": ["docs/enrollkit-sdk/web/overview"]
+            "pages": [
+              "docs/enrollkit-sdk/web/overview"
+            ]
           }
         ]
       },
       {
         "tab": "Trust Center",
-        "href": "https://trust.wicketsoft.com"
+        "href": "https://trust.wicketsoft.com/"
       }
     ]
   },
