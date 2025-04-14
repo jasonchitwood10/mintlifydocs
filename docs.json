@@ -110,5 +110,9 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "background": {
+    "light": "#FFFFFF",
+  "dark": "#13293D"
+  },
 }
