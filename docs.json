@@ -3,15 +3,10 @@
   "theme": "willow",
   "name": "Mint Starter Kit",
   "colors": {
-    "light": {
-      "accent": "#13293D",
-      "background": "#FFFFFF"
-    },
-    "dark": {
-      "accent": "#37B5AC",
-      "background": "#13293D"
-    }
-  },
+    "primary": "#37B5AC",
+    "light": "#13293D",
+    "dark": "#13293D"
+  }
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
