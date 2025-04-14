@@ -3,10 +3,15 @@
   "theme": "mint",
   "name": "Chitwood Docs",
   "colors": {
-    "primary": "#37B5AC",
-    "light": "#37B5AC",
-    "dark": "#13293D"
+  "light": {
+    "accent": "#13293D",
+    "background": "#FFFFFF"
   },
+  "dark": {
+    "accent": "#37B5AC",
+    "background": "#13293D"
+  }
+}
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
