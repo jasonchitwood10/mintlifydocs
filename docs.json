@@ -1,167 +1,150 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Your Documentation",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
+  "colors": {
+    "primary": "#007BFF",
+    "light": "#4DABFF",
+    "dark": "#005BC4",
+    "background": {
+      "light": "#F9FAFB",
+      "dark": "#111827"
+    },
+    "anchors": {
+      "from": "#007BFF",
+      "to": "#4DABFF"
+    }
+  },
+  "modeToggle": {
+    "default": "light",
+    "isHidden": "false",
+  },
+  "topbarLinks": [
     {
+      "name": "Support",
+      "url": "https://support.yourdomain.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "/getting-started"
+  },
   "tabs": [
     {
       "name": "Getting Started",
-      "pages": [
-        {
-          "name": "Introduction",
-          "path": "/getting-started/introduction"
-        }
-      ]
+      "url": "getting-started"
     },
     {
       "name": "Webhooks",
-      "anchors": [
-        {
-          "name": "Ticketing",
-          "icon": "ticket",
-          "pages": [
-            {
-              "name": "Ticketing Webhook",
-              "path": "/webhooks/ticketing"
-            }
-          ]
-        },
-        {
-          "name": "Credentialing",
-          "icon": "certificate",
-          "pages": [
-            {
-              "name": "Credentialing Webhook",
-              "path": "/webhooks/credentialing"
-            }
-          ]
-        },
-        {
-          "name": "Interactions",
-          "icon": "comments",
-          "pages": [
-            {
-              "name": "Interactions Webhook",
-              "path": "/webhooks/interactions"
-            }
-          ]
-        }
-      ]
+      "url": "webhooks"
     },
     {
       "name": "Access API",
-      "pages": [
-        {
-          "name": "API Overview",
-          "path": "/access-api/overview"
-        }
-      ]
+      "url": "access-api"
     },
     {
       "name": "AuthKit SDK",
-      "anchors": [
-        {
-          "name": "iOS",
-          "icon": "apple",
-          "pages": [
-            {
-              "name": "iOS SDK",
-              "path": "/authkit-sdk/ios"
-            }
-          ]
-        },
-        {
-          "name": "Android",
-          "icon": "android",
-          "pages": [
-            {
-              "name": "Android SDK",
-              "path": "/authkit-sdk/android"
-            }
-          ]
-        }
-      ]
+      "url": "authkit-sdk"
     },
     {
       "name": "EnrollKit SDK",
-      "anchors": [
-        {
-          "name": "iOS",
-          "icon": "apple",
-          "pages": [
-            {
-              "name": "iOS SDK",
-              "path": "/enrollkit-sdk/ios"
-            }
-          ]
-        },
-        {
-          "name": "Android",
-          "icon": "android",
-          "pages": [
-            {
-              "name": "Android SDK",
-              "path": "/enrollkit-sdk/android"
-            }
-          ]
-        },
-        {
-          "name": "React",
-          "icon": "react",
-          "pages": [
-            {
-              "name": "React SDK",
-              "path": "/enrollkit-sdk/react"
-            }
-          ]
-        },
-        {
-          "name": "Web",
-          "icon": "globe",
-          "pages": [
-            {
-              "name": "Web SDK",
-              "path": "/enrollkit-sdk/web"
-            }
-          ]
-        }
-      ]
+      "url": "enrollkit-sdk"
     },
     {
       "name": "Trust Center",
-      "href": "https://trust.wicketsoft.com"
+      "url": "trust-center"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/introduction"
+      ]
+    },
+    {
+      "group": "Webhooks",
+      "pages": [
+        "webhooks/overview"
+      ]
+    },
+    {
+      "group": "Access API",
+      "pages": [
+        "access-api/reference"
+      ]
+    },
+    {
+      "group": "AuthKit SDK",
+      "pages": [
+        "authkit-sdk/guide"
+      ]
+    },
+    {
+      "group": "EnrollKit SDK",
+      "pages": [
+        "enrollkit-sdk/guide"
+      ]
+    },
+    {
+      "group": "Trust Center",
+      "pages": [
+        {
+          "page": "Trust Center",
+          "url": "https://trust.wicketsoft.com"
+        }
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Ticketing",
+      "url": "/webhooks/overview#ticketing",
+      "group": "Webhooks"
+    },
+    {
+      "name": "Credentialing",
+      "url": "/webhooks/overview#credentialing",
+      "group": "Webhooks"
+    },
+    {
+      "name": "Interactions",
+      "url": "/webhooks/overview#interactions",
+      "group": "Webhooks"
+    },
+    {
+      "name": "iOS",
+      "url": "/authkit-sdk/guide#ios",
+      "group": "AuthKit SDK"
+    },
+    {
+      "name": "Android",
+      "url": "/authkit-sdk/guide#android",
+      "group": "AuthKit SDK"
+    },
+    {
+      "name": "iOS",
+      "url": "/enrollkit-sdk/guide#ios",
+      "group": "EnrollKit SDK"
+    },
+    {
+      "name": "Android",
+      "url": "/enrollkit-sdk/guide#android",
+      "group": "EnrollKit SDK"
+    },
+    {
+      "name": "React",
+      "url": "/enrollkit-sdk/guide#react",
+      "group": "EnrollKit SDK"
+    },
+    {
+      "name": "Web",
+      "url": "/enrollkit-sdk/guide#web",
+      "group": "EnrollKit SDK"
     }
   ]
-}
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
