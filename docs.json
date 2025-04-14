@@ -19,18 +19,22 @@
         "anchors": [
           {
             "anchor": "Overview",
+            "icon": "exclamation",
             "pages": ["docs/webhooks/overview/overview"]
           },
           {
             "anchor": "Ticketing Webhooks",
+            "icon": "ticket",
             "pages": ["docs/webhooks/ticketing/overview"]
           },
           {
             "anchor": "Credentialing Webhooks",
+            "icon": "id-badge",
             "pages": ["docs/webhooks/credentialing/overview"]
           },
           {
             "anchor": "Interactions Webhooks",
+            "icon": "table-list",
             "pages": ["docs/webhooks/interactions/overview"]
           }
         ]
@@ -44,14 +48,17 @@
         "anchors": [
           {
             "anchor": "Overview",
+            "icon": "exclamation",
             "pages": ["docs/authkit-sdk/overview/overview"]
           },
           {
             "anchor": "iOS",
+            "icon": "apple",
             "pages": ["docs/authkit-sdk/ios/overview"]
           },
           {
             "anchor": "Android",
+            "icon": "android",
             "pages": ["docs/authkit-sdk/android/overview"]
           }
         ]
@@ -61,22 +68,27 @@
         "anchors": [
           {
             "anchor": "Overview",
+            "icon": "exclamation",
             "pages": ["docs/enrollkit-sdk/overview/overview"]
           },
           {
             "anchor": "iOS",
+            "icon": "apple",
             "pages": ["docs/enrollkit-sdk/ios/overview"]
           },
           {
             "anchor": "Android",
+            "icon": "android",
             "pages": ["docs/enrollkit-sdk/android/overview"]
           },
           {
             "anchor": "React",
+            "icon": "react",
             "pages": ["docs/enrollkit-sdk/react/overview"]
           },
           {
             "anchor": "Web",
+            "icon": "globe",
             "pages": ["docs/enrollkit-sdk/web/overview"]
           }
         ]
