@@ -29,8 +29,8 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
-        "pages": ["docs/documentation/overview"]
+        "tab": "Welcome",
+        "pages": ["docs/welcome/overview"]
       },
       {
         "tab": "Webhooks",
