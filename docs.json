@@ -39,7 +39,7 @@
           {
             "anchor": "Changelog",
             "icon": "list",
-            "pages": ["docs/overview/changelog/index"]
+            "pages": ["docs/overview/changelog"]
           }
         ]
       },
