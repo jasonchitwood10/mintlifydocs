@@ -29,8 +29,19 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Welcome",
-        "pages": ["docs/welcome/overview"]
+        "tab": "Overview",
+        "anchors": [
+          {
+            "anchor": "Welcome",
+            "icon": "hand-wave",
+            "pages": ["docs/welcome/getting-started"]
+          },
+          {
+            "anchor": "Changelog",
+            "icon": "list",
+            "pages": ["docs/updates/index"]
+          }
+        ]
       },
       {
         "tab": "Webhooks",
