@@ -38,7 +38,7 @@
           },
           {
             "anchor": "Changelog",
-            "icon": "list",
+            "icon": "rocket-launch",
             "pages": ["docs/overview/changelog/feed"]
           }
         ]
