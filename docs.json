@@ -34,12 +34,12 @@
           {
             "anchor": "Welcome",
             "icon": "hand-wave",
-            "pages": ["docs/welcome/getting-started"]
+            "pages": ["docs/overview/welcome/getting-started"]
           },
           {
             "anchor": "Changelog",
             "icon": "list",
-            "pages": ["docs/changelog/index"]
+            "pages": ["docs/overview/changelog/index"]
           }
         ]
       },
