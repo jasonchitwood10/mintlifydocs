@@ -81,24 +81,14 @@
             "pages": ["docs/authkit-sdk/overview/overview"]
           },
           {
-            "anchor": "iOS Documentation",
+            "anchor": "iOS",
             "icon": "apple",
             "pages": ["docs/authkit-sdk/ios/overview"]
           },
           {
-            "anchor": "Download SDK – iOS",
-            "icon": "arrow-down",
-            "href": "https://www.google.com/"
-          },
-          {
-            "anchor": "Android Documentation",
+            "anchor": "Android",
             "icon": "android",
             "pages": ["docs/authkit-sdk/android/overview"]
-          },
-          {
-            "anchor": "Download SDK – Android",
-            "icon": "arrow-down",
-            "href": "https://www.google.com/"
           }
         ]
       },
@@ -111,44 +101,24 @@
             "pages": ["docs/enrollkit-sdk/overview/overview"]
           },
           {
-            "anchor": "iOS Documentation",
+            "anchor": "iOS",
             "icon": "apple",
             "pages": ["docs/enrollkit-sdk/ios/overview"]
           },
           {
-            "anchor": "Download SDK – iOS",
-            "icon": "arrow-down",
-            "href": "https://www.google.com/"
-          },
-          {
-            "anchor": "Android Documentation",
+            "anchor": "Android",
             "icon": "android",
             "pages": ["docs/enrollkit-sdk/android/overview"]
           },
           {
-            "anchor": "Download SDK – Android",
-            "icon": "arrow-down",
-            "href": "https://www.google.com/"
-          },
-          {
-            "anchor": "React Documentation",
+            "anchor": "React",
             "icon": "react",
             "pages": ["docs/enrollkit-sdk/react/overview"]
           },
           {
-            "anchor": "Download SDK – React",
-            "icon": "arrow-down",
-            "href": "https://www.google.com/"
-          },
-          {
-            "anchor": "Web Documentation",
+            "anchor": "Web",
             "icon": "globe",
             "pages": ["docs/enrollkit-sdk/web/overview"]
-          },
-          {
-            "anchor": "Download SDK – Web",
-            "icon": "arrow-down",
-            "href": "https://www.google.com/"
           }
         ]
       },
