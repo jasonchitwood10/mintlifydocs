@@ -74,51 +74,101 @@
       },
       {
         "tab": "AuthKit SDK",
-        "anchors": [
+        "groups": [
           {
-            "anchor": "Overview",
-            "icon": "hand-wave",
-            "pages": ["docs/authkit-sdk/overview/overview"]
+            "group": "Documentation",
+            "anchors": [
+              {
+                "anchor": "Overview",
+                "icon": "hand-wave",
+                "pages": ["docs/authkit-sdk/overview/overview"]
+              },
+              {
+                "anchor": "iOS",
+                "icon": "apple",
+                "pages": ["docs/authkit-sdk/ios/overview"]
+              },
+              {
+                "anchor": "Android",
+                "icon": "android",
+                "pages": ["docs/authkit-sdk/android/overview"]
+              }
+            ]
           },
           {
-            "anchor": "iOS",
-            "icon": "apple",
-            "href": "https://www.google.com/"
-          },
-          {
-            "anchor": "Android",
-            "icon": "android",
-            "pages": ["docs/authkit-sdk/android/overview"]
+            "group": "Downloads",
+            "anchors": [
+              {
+                "anchor": "Download SDK - iOS",
+                "icon": "download",
+                "href": "https://www.google.com"
+              },
+              {
+                "anchor": "Download SDK - Android",
+                "icon": "download",
+                "href": "https://www.google.com"
+              }
+            ]
           }
         ]
       },
       {
         "tab": "EnrollKit SDK",
-        "anchors": [
+        "groups": [
           {
-            "anchor": "Overview",
-            "icon": "hand-wave",
-            "pages": ["docs/enrollkit-sdk/overview/overview"]
+            "group": "Documentation",
+            "anchors": [
+              {
+                "anchor": "Overview",
+                "icon": "hand-wave",
+                "pages": ["docs/enrollkit-sdk/overview/overview"]
+              },
+              {
+                "anchor": "iOS",
+                "icon": "apple",
+                "pages": ["docs/enrollkit-sdk/ios/overview"]
+              },
+              {
+                "anchor": "Android",
+                "icon": "android",
+                "pages": ["docs/enrollkit-sdk/android/overview"]
+              },
+              {
+                "anchor": "React",
+                "icon": "react",
+                "pages": ["docs/enrollkit-sdk/react/overview"]
+              },
+              {
+                "anchor": "Web",
+                "icon": "globe",
+                "pages": ["docs/enrollkit-sdk/web/overview"]
+              }
+            ]
           },
           {
-            "anchor": "iOS",
-            "icon": "apple",
-            "pages": ["docs/enrollkit-sdk/ios/overview"]
-          },
-          {
-            "anchor": "Android",
-            "icon": "android",
-            "pages": ["docs/enrollkit-sdk/android/overview"]
-          },
-          {
-            "anchor": "React",
-            "icon": "react",
-            "pages": ["docs/enrollkit-sdk/react/overview"]
-          },
-          {
-            "anchor": "Web",
-            "icon": "globe",
-            "pages": ["docs/enrollkit-sdk/web/overview"]
+            "group": "Downloads",
+            "anchors": [
+              {
+                "anchor": "Download SDK - iOS",
+                "icon": "download",
+                "href": "https://www.google.com"
+              },
+              {
+                "anchor": "Download SDK - Android",
+                "icon": "download",
+                "href": "https://www.google.com"
+              },
+              {
+                "anchor": "Download SDK - React",
+                "icon": "download",
+                "href": "https://www.google.com"
+              },
+              {
+                "anchor": "Download SDK - Web",
+                "icon": "download",
+                "href": "https://www.google.com"
+              }
+            ]
           }
         ]
       },
