@@ -83,7 +83,7 @@
           {
             "anchor": "iOS",
             "icon": "apple",
-            "pages": ["https://www.google.com/"]
+            "href": ["https://www.google.com/"]
           },
           {
             "anchor": "Android",
