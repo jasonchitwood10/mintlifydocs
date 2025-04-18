@@ -74,101 +74,81 @@
       },
       {
         "tab": "AuthKit SDK",
-        "groups": [
+        "anchors": [
           {
-            "group": "Documentation",
-            "anchors": [
-              {
-                "anchor": "Overview",
-                "icon": "hand-wave",
-                "pages": ["docs/authkit-sdk/overview/overview"]
-              },
-              {
-                "anchor": "iOS",
-                "icon": "apple",
-                "pages": ["docs/authkit-sdk/ios/overview"]
-              },
-              {
-                "anchor": "Android",
-                "icon": "android",
-                "pages": ["docs/authkit-sdk/android/overview"]
-              }
-            ]
+            "anchor": "Overview",
+            "icon": "hand-wave",
+            "pages": ["docs/authkit-sdk/overview/overview"]
           },
           {
-            "group": "Downloads",
-            "anchors": [
-              {
-                "anchor": "Download SDK - iOS",
-                "icon": "download",
-                "href": "https://www.google.com"
-              },
-              {
-                "anchor": "Download SDK - Android",
-                "icon": "download",
-                "href": "https://www.google.com"
-              }
-            ]
+            "anchor": "iOS Documentation",
+            "icon": "apple",
+            "pages": ["docs/authkit-sdk/ios/overview"]
+          },
+          {
+            "anchor": "Download SDK – iOS",
+            "icon": "arrow-down",
+            "href": "https://www.google.com/"
+          },
+          {
+            "anchor": "Android Documentation",
+            "icon": "android",
+            "pages": ["docs/authkit-sdk/android/overview"]
+          },
+          {
+            "anchor": "Download SDK – Android",
+            "icon": "arrow-down",
+            "href": "https://www.google.com/"
           }
         ]
       },
       {
         "tab": "EnrollKit SDK",
-        "groups": [
+        "anchors": [
           {
-            "group": "Documentation",
-            "anchors": [
-              {
-                "anchor": "Overview",
-                "icon": "hand-wave",
-                "pages": ["docs/enrollkit-sdk/overview/overview"]
-              },
-              {
-                "anchor": "iOS",
-                "icon": "apple",
-                "pages": ["docs/enrollkit-sdk/ios/overview"]
-              },
-              {
-                "anchor": "Android",
-                "icon": "android",
-                "pages": ["docs/enrollkit-sdk/android/overview"]
-              },
-              {
-                "anchor": "React",
-                "icon": "react",
-                "pages": ["docs/enrollkit-sdk/react/overview"]
-              },
-              {
-                "anchor": "Web",
-                "icon": "globe",
-                "pages": ["docs/enrollkit-sdk/web/overview"]
-              }
-            ]
+            "anchor": "Overview",
+            "icon": "hand-wave",
+            "pages": ["docs/enrollkit-sdk/overview/overview"]
           },
           {
-            "group": "Downloads",
-            "anchors": [
-              {
-                "anchor": "Download SDK - iOS",
-                "icon": "download",
-                "href": "https://www.google.com"
-              },
-              {
-                "anchor": "Download SDK - Android",
-                "icon": "download",
-                "href": "https://www.google.com"
-              },
-              {
-                "anchor": "Download SDK - React",
-                "icon": "download",
-                "href": "https://www.google.com"
-              },
-              {
-                "anchor": "Download SDK - Web",
-                "icon": "download",
-                "href": "https://www.google.com"
-              }
-            ]
+            "anchor": "iOS Documentation",
+            "icon": "apple",
+            "pages": ["docs/enrollkit-sdk/ios/overview"]
+          },
+          {
+            "anchor": "Download SDK – iOS",
+            "icon": "arrow-down",
+            "href": "https://www.google.com/"
+          },
+          {
+            "anchor": "Android Documentation",
+            "icon": "android",
+            "pages": ["docs/enrollkit-sdk/android/overview"]
+          },
+          {
+            "anchor": "Download SDK – Android",
+            "icon": "arrow-down",
+            "href": "https://www.google.com/"
+          },
+          {
+            "anchor": "React Documentation",
+            "icon": "react",
+            "pages": ["docs/enrollkit-sdk/react/overview"]
+          },
+          {
+            "anchor": "Download SDK – React",
+            "icon": "arrow-down",
+            "href": "https://www.google.com/"
+          },
+          {
+            "anchor": "Web Documentation",
+            "icon": "globe",
+            "pages": ["docs/enrollkit-sdk/web/overview"]
+          },
+          {
+            "anchor": "Download SDK – Web",
+            "icon": "arrow-down",
+            "href": "https://www.google.com/"
           }
         ]
       },
